@@ -1,6 +1,12 @@
-# Phase3_Project
+# Whisky Price Predictor
 
-Welcome to my Phase 3 project: classifiers. Here I was tasked with finding my own data and solving my own problem regarding it.
+Whisky: Nectar of the Gods. Fuel for writer's.
+What hasn't been said about whisky while musing quietly by a fireplace, or screaming from the back of a squadcar?
+
+In case it hasn't become clear by now, I'm a bit of a whisky drinker myself. What appealed to me about whisky was what didn't appeal to me about beer: all beers basically tasted the same to me and it seemed so 'manufactured', whereas each whisky had its distinct flavor and had some more craftsmanship in its creation.
+The problem is whisky varies pretty wildly in price from the 'celebrating your Nobel Prize' ($500+ per bottle) to the 'alcohol fueled rampage' (~$20 per bottle). The trick is to find a relatively cheap bottle of whisky that's still really good. Like with most things, computers can help us with that.
+![Alt Text](https://tenor.com/view/liquor-scotch-ron-burgundy-i-love-scotch-gif-14987760.gif)
+Welcome to my project: classifiers. Here I was tasked with finding my own data and solving my own problem regarding it.
 
 I chose a whisky database from the website:
 https://whiskyanalysis.com/index.php/database/
