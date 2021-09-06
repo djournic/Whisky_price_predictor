@@ -15,7 +15,7 @@ https://whiskyanalysis.com/index.php/database/
 It's also useful to know how to read the data:
 https://whiskyanalysis.com/index.php/interesting-correlations/how-to-read-the-database/
 
-![Alt Text](https://i.gifer.com/3Ve.gif)
+![Alt Text](https://media3.giphy.com/media/mZQhT9Ey4tpgA/giphy.gif?cid=ecf05e472cqf6uiu99ucfyte9qdsfguhy4fqgjw6j9wdjdxs&rid=giphy.gif&ct=g.gif)
 
 This met the requirements for an acceptable database, and I decided right away I wanted to create a model to successfully predict if a bottle was expensive or not. Luckily the data didn't need a lot of preprocessing before I got into the modeling except for one thing: many of the whisky names in the data also included ages (ex: 'Ardbeg 10yo') so it seemed like a good idea to take those names and make that another criterion for the models. That took a little work parsing the names of all the whiskies in the data, pulling out the ages and creating a column just for that. But ultimately it was done, but then not every whisky name followed that convention. I had to do more scouring of the data, and some research, eventually I was able to get an age to every whisky in the data.
 Then I decided to drop the 'Super Cluster' column, it would create too many other columns when I created the dummies from it. I decided to use get_dummies as opposed to one hot encoder because it dealt with string variables better. Next, there were a significant number of null values in the 'Cluster' column, I decided simply to make them 'U' of Unknown or Undefined.
